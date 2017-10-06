@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b21b34-0d0b-4bb8-b81a-f1d4ca67603c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/airport/Airports.html" afterPath="$PROJECT_DIR$/airport/Airports.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/airport/Airports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/airport/airports.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/airport/cell_towers.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/airport/us-states.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/assets/airports.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/assets/cell_towers.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/assets/counties-original.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/assets/counties.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/assets/us-states.geojson" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/colorbrewer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/final_map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/map1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/map2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/map3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/map4-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/img/map4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/map1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/map2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/map3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/map4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab03/readme.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,41 +46,7 @@
     <favorites_list name="AirportMap" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Airports.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/airport/Airports.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1507307368185" expanded="true" signature="990:996" ph="©" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="us-states.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/airport/us-states.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airports.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/airport/airports.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="711" column="98" lean-forward="false" selection-start-line="711" selection-start-column="88" selection-end-line="711" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -86,7 +76,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
   </component>
@@ -139,7 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -152,16 +142,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507303121161</updated>
-      <workItem from="1507303122804" duration="4528000" />
+      <workItem from="1507303122804" duration="4777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4528000" />
+    <option name="totallyTimeSpent" value="4777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1167" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49791232" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -240,10 +230,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1507307368185" expanded="true" signature="990:996" ph="©" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
