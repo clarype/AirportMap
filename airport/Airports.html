@@ -28,9 +28,11 @@
     }).addTo(map);
 
 
-  /*  var colors = chroma.scale('Set2').mode('lch').colors(9);
-    for (i = 0; i < 9; i++) {
-        $('head').append($("<style> .marker-color-" + (i + 1).toString() + " { color: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
+    var colors = chroma.scale('Set2').mode('lch').colors(9);
+
+    for (i = 0; i < 3; i++) {
+        $('head').append($("<style> .marker-color-" + (i + 1).toString() + " { color: " + colors[i] + ";" +
+            " font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
     }
 
 
@@ -39,34 +41,29 @@
 
     L.geoJson.ajax("airports.geojson", {
         onEachFeature: function (feature, layer) {
-            layer.bindPopup(feature.properties.company);
+            layer.bindPopup(feature.properties.AIRPT_NAME);
         },
         pointToLayer: function (feature, latlng) {
             var id = 0;
-            if (feature.properties. == "New Cingular") { id = 0; }
-            else if (feature.properties.company == "Cellco")  { id = 1; }
-            else if (feature.properties.company == "RCC Minnesota")  { id = 2; }
-            else if (feature.properties.company == "Verizon")  { id = 3; }
-            else if (feature.properties.company == "US Cellular")  { id = 4; }
-            else if (feature.properties.company == "Hood River Cellular")  { id = 5; }
-            else if (feature.properties.company == "Medford Cellular")  { id = 6; }
-            else if (feature.properties.company == "Oregon RSA")  { id = 7; }
-            else { id = 8;} // "Salem Cellular"
-            return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-signal marker-color-' + (id + 1).toString() })});
+            if (feature.properties.CNTL_TWR == "Y") { id = 0; }
+            else if (feature.properties.CNTL_TWR == "N")  { id = 1; }
+              else { id = 3;} // "Unknown"
+            return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-plane marker-color-' + (id + 1).toString() })});
         }
-    }).addTo(mymap);
+    }).addTo(map);
 
 
 
 
     // Set function for color ramp
-    colors = chroma.scale('OrRd').mode('hsl').colors(5); //colors = chroma.scale('OrRd').colors(5);
+    colors = chroma.scale('OrRd').mode('hsl').colors(6); //colors = chroma.scale('OrRd').colors(5);
     function setColor(density) {
         var id = 0;
-        if (density > 18) { id = 4; }
-        else if (density > 13 && density <= 18) { id = 3; }
-        else if (density > 10 && density <= 13) { id = 2; }
-        else if (density > 5 &&  density <= 10) { id = 1; }
+        if (density > 40) { id = 5; }
+        else if (density > 30 && density <= 40) { id = 4; }
+        else if (density > 20 && density <= 30) { id = 3; }
+        else if (density > 10 && density <= 20) { id = 2; }
+        else if (density > 1  &&  density <= 10) { id = 1; }
         else  { id = 0; }
         return colors[id];
     }
@@ -76,7 +73,7 @@
     // Set style function that sets fill color property equal to cell tower density
     function style(feature) {
         return {
-            fillColor: setColor(feature.properties.CT_CNT),
+            fillColor: setColor(feature.properties.count),
             fillOpacity: 0.4,
             weight: 2,
             opacity: 1,
@@ -87,9 +84,9 @@
 
 
     // Add Neighborhood Polygons
-    L.geoJson.ajax("assets/counties.geojson", {
+    L.geoJson.ajax("us-states.geojson", {
         style: style
-    }).addTo(mymap);  */
+    }).addTo(map);
 
 </script>
 
