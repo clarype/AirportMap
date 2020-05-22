@@ -20,7 +20,7 @@ for (i = 0; i < 3; i++) {
 // Get GeoJSON and put on it on the map when it loads
 
 
-L.geoJson.ajax("assets/airports.geojson", {
+L.geoJson.ajax("assets/cellTowers.geojson", {
     onEachFeature: function (feature, layer) {
         layer.bindPopup(feature.properties.AIRPT_NAME);
     },
